@@ -21,6 +21,4 @@ nao encontrei, mas foi o único da prova que me forçou a pensar mais.
 
 
 4- bastante dificuldade em montar um for para fazer o fatorial, dificuldade tambem em verificar se o calculo estava
-sendo feito de forma correta ou nao. No enunciado diz para comecar E = 1 - 1/1! +....,
-se fizermos o primeiro caso 1- 1/1! alcançamos o numero 0, logo considerei antes de executar todo o codigo se o numero
-solicitado nao era 1. Se fosse, ele retornaria logo 0. [TEMPO UTILIZADO: 1h 30min].
+sendo feito de forma correta ou nao. Demorei muito pra conferir, pra montar o exercicio em sí foi rapido. [TEMPO UTILIZADO: 1h 30min].
