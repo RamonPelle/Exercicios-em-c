@@ -14,7 +14,7 @@ entao vou seguir com a ideia. [15:19h] pensei em outra ideia usando o for, acho 
 pq daria pra relacionar com o indice dos meses, mas n da p usar :\ Logo que pensei desisti e voltei pro switch.
 
 15:43- Fiz com switch somando os dias dos meses, acredito que vou deixar assim a não ser que eu pense em alguma outra solucao 
-ate a hora da entrega. [TEMPO UTILIZADO: 45MIN]
+ate a hora da entrega. [TEMPO UTILIZADO: 45MIN] - 23:16 - atualizei com 'ifs'
 
 Por mais que ele seja complexo, gostei, pois me desafiou a pensar em alguma forma alternativa para resolver. Infelizmente
 nao encontrei, mas foi o único da prova que me forçou a pensar mais.

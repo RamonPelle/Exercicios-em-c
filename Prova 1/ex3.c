@@ -11,19 +11,7 @@ Observação: todo ano é bissexto se for divisível por 400 ou se for divisíve
 divisível por 100. Por exemplo: 1988, 1992, 1996.*/
 
 int main() {
-	int dia, mes, ano;
-/*1	Janeiro	tem 31 dias 0 
-2	Fevereiro	tem 28 dias (29 dias nos anos bissextos) 31
-3	Março	tem 31 dias 59
-4	Abril	tem 30 dias 90
-5	Maio	tem 31 dias 120
-6	Junho	tem 30 dias 151
-7	Julho	tem 31 dias 181
-8	Agosto	tem 31 dias 212
-9	Setembro	tem 30 dias 243
-10	Outubro	tem 31 dias 273
-11	Novembro	tem 30 dias 304
-12	Dezembro	tem 31 dias 335*/ 
+	int dia, mes, ano, bissexto=0;
 	printf("Digite uma data: \n");
 	printf("Dia: ");
 	scanf("%d", &dia);
@@ -35,54 +23,103 @@ int main() {
 		if(mes==2 &&dia<29){
 			dia--;
 		}
-		printf("teste");
+		//printf("teste");
 		dia++;
+		bissexto++;
 	}
 	switch (mes){ //horrivel isso, mas unica forma q encontrei
 	case 1:
+		if(dia>31){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 2:
+		if(dia>28 && bissexto==0){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 31;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 3:
+	if(dia>31){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 59;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 4:
+		if(dia>30){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 90;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 5:
+		if(dia>31){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 120;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 6:
+		if(dia>30){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 151;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 7:
+		if(dia>31){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 181;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 8:
+		if(dia>31){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 212;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 9:
+		if(dia>30){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 243;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 10:
+		if(dia>31){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 273;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 11:
+		if(dia>30){
+			printf("Tente novamente com algum dia válido.");
+			break;	
+		}
 		dia += 304;
 		printf("Passou %d dias do ano.", dia);
 		break;
 	case 12:
+		if(dia>31){
+			printf("Tente novamente com algum dia válido.");
+			break;
+		}
 		dia += 335;
 		printf("Passou %d dias do ano.", dia);
 		break;
