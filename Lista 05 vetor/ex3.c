@@ -12,7 +12,7 @@ int main() {
 		printf("Digite o valor %d do vetor: \n", i+1);
 		scanf("%d", &vetor[i]);
 	}
-	for(i=9; i>0; i--){
+	for(i=9; i>=0; i--){
 		if(maior<vetor[i]){
 			maior = vetor[i];
 		}
